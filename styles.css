@@ -1,0 +1,101 @@
+* {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  border: 0px;
+}
+
+#title {
+  display: flex;
+  font-size: 3em;
+  justify-content: center;
+  padding: 20px 0 0;
+}
+
+header {
+  background-color: rgb(220, 220, 220);
+  margin: 0;
+  padding-bottom: 1px;
+}
+
+#subtitle {
+  padding: 0 0 20px 0;
+  font-size: 1.5em;
+}
+
+img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#imd-div {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+#tribute-info {
+  background-color: rgb(220, 220, 220);
+}
+
+#timeline {
+  margin-bottom: 60px;
+}
+
+#timeline h2 {
+  padding: 30px 10px 10px;
+  font-size: 2em;
+}
+
+#timeline ul li {
+  width: 50%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+#quote {
+  width: 50%;
+  margin: 70px auto;
+  font-size: 1.5em;
+  font-style: italic;
+  margin-bottom: 70px;
+}
+
+#further-reading {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+#further-reading h4{
+  font-size: 1.5em;
+}
+
+#further-reading a {
+  color: black;
+  font-size: 1.1em;
+}
+
+body {
+  padding-bottom: 1px;
+}
+
+footer {
+  background-color: rgb(60, 60, 60);
+  margin: 0;
+  padding: 5px;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
